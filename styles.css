@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+.quoteText,
+button {
+  font-family: "Segoe UI";
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.quote-container {
+  /* display: flex; */
+  background: whitesmoke;
+  width: 75%;
+  margin-top: 5rem;
+  border-radius: 3px;
+}
+
+.quoteText {
+  padding: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.author {
+  font-size: 1.2rem;
+  margin-left: 70%;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.next-quote-container {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+button {
+  font-size: 1.6rem;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  border: 3px solid rgb(25, 24, 29);
+  text-align: center;
+  line-height: 1;
+  background-color: transparent;
+  padding: 10px;
+  outline: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  color: #001f3f;
+  background-color: rgb(25, 24, 29);
+  color: #fff;
+}
+
+a {
+  display: flex;
+  font-size: 2rem;
+  color: #1da1f2;
+  text-decoration: none;
+}
+
+a > i {
+  margin: auto 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .quote-container {
+    margin-top: 2rem;
+    width: 90%;
+  }
+  .quoteText {
+    font-size: 1.2rem;
+  }
+
+  .author {
+    margin-left: 30%;
+  }
+
+  .next-quote-container {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  button {
+    padding: 5px;
+  }
+
+  a > i {
+    margin: 1rem auto;
+  }
+}
