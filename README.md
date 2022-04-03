@@ -1,4 +1,6 @@
-# random-quote-generator
+# Random Quote Generator
+
+### What it is
 On the press of a button a random quote is generated and the background colour changes!
 You can also share any quote to Twitter.
 
